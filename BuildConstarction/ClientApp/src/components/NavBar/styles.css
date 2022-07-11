@@ -1,0 +1,22 @@
+.navBarContainer {
+  padding: 16px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.navBarLogo {
+  width: 200px;
+}
+.navBarLink {
+  text-transform: uppercase;
+  margin-left: 40px;
+  padding: 0 3px 2px 2px;
+  transition: all .1s linear;
+  border-bottom: 2px solid  rgba(204, 204, 204, 0);
+}
+.navBarLink:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(204, 204, 204);
+}
