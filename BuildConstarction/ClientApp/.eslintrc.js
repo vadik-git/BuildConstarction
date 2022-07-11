@@ -28,14 +28,25 @@ module.exports = {
   ],
   rules: {
     'template-tag-spacing': ['error', 'always'],
-    'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx', '.jsx', '.js'] }],
+    'react/require-default-props': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/button-has-type': 0,
+    'arrow-parens': ['error', 'always'],
+    'react/jsx-filename-extension': [1,
+      {
+        extensions: ['.ts', '.tsx', '.jsx', '.js'],
+      },
+    ],
     'arrow-body-style': 'off',
     '@typescript-eslint/no-shadow': ['error'],
+    'import/prefer-default-export': 'off',
     'no-shadow': 'off',
     'no-undef': 'off',
-    'import/extensions': ['error', 'ignorePackages', {
-      js: 'never', jsx: 'never', ts: 'never', tsx: 'never',
-    }],
+    'import/extensions': [
+      'error',
+      'ignorePackages', {
+        js: 'never', jsx: 'never', ts: 'never', tsx: 'never',
+      }],
     'react/function-component-definition': [
       2,
       {

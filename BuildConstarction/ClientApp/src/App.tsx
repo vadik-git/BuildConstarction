@@ -1,9 +1,10 @@
 import React from 'react';
+import Navigation from './navigation/index';
 
 import './custom.css';
 
 const App = () => {
-  return <div>Hello</div>;
+  return <Navigation />;
 };
 
 export default App;

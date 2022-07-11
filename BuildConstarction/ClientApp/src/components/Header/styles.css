@@ -1,0 +1,14 @@
+.headerContainer {
+  height: 30px;
+  padding: 0 80px;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  align-items: center;
+}
+.socialButton {
+  margin-left: 10;
+  background-color: transparent;
+  border: none;
+}
