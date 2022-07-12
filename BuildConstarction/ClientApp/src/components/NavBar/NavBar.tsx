@@ -1,10 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { PAGES } from '../../navigation/pages';
+import { Link, useLocation } from 'react-router-dom';
+import { v4 } from 'uuid';
 
+import { PAGES } from '../../navigation/pages';
 import './styles.css';
 
 const NavBar = () => {
+  const { pathname } = useLocation();
+
   return (
     <div className="navBarContainer">
       <img
@@ -14,9 +17,13 @@ const NavBar = () => {
       />
 
       <div className="navBarLinks">
-        {PAGES.map((page) => (
-          <Link className="navBarLink" to={page.path}>
-            {page.name}
+        {PAGES.map(page => (
+          <Link
+            key={v4()}
+            className={`navBarLink ${pathname === page.path && 'active'}`}
+            to={page.path}
+          >
+            <p className="navBarLinkText">{page.name}</p>
           </Link>
         ))}
       </div>

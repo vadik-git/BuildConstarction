@@ -31,7 +31,8 @@ module.exports = {
     'react/require-default-props': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/button-has-type': 0,
-    'arrow-parens': ['error', 'always'],
+    'arrow-parens': ['error', 'as-needed'],
+    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-filename-extension': [1,
       {
         extensions: ['.ts', '.tsx', '.jsx', '.js'],
