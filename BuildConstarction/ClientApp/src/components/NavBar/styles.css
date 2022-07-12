@@ -1,22 +1,46 @@
 .navBarContainer {
-  padding: 16px 80px;
+  padding: 0 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.531);
+  background-color: #3d424a;
+  overflow: hidden;
+  box-shadow: 0 6px 9px 0px #0000004a;
 }
 .navBarLogo {
   width: 200px;
 }
+.navBarLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+}
 .navBarLink {
+  display: flex;
+  align-items: center;
   text-transform: uppercase;
   margin-left: 40px;
-  padding: 0 3px 2px 2px;
-  transition: all .1s linear;
-  border-bottom: 2px solid  rgba(204, 204, 204, 0);
+  transition: all .2s linear;
+  color: #ffffffb3;
 }
 .navBarLink:hover {
-  color: black;
+  color: #000000;
   text-decoration: none;
-  border-bottom: 2px solid rgb(204, 204, 204);
+}
+.active {
+  color: black;
+  padding: 0 10px;
+  transform: translateY(-30px) rotate(-20deg);
+  text-decoration: none;
+  height: 140px;
+  background-color: #FFA62B;
+}
+.navBarLinkText {
+  margin: 0;
+}
+.active .navBarLinkText {
+  display: block;
+  transform: rotate(20deg);
 }
