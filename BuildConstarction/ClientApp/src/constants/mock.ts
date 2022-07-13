@@ -17,3 +17,26 @@ export const MOCK_DATA_LAST_PROJECTS: IProject[] = [
     pathImg: "main_bg_image.png",
   },
 ];
+
+export const MOCK_DATA_NEW_PLANS: IProject[] = [
+  {
+    id: 1,
+    name: "The Magnolia",
+    pathImg: "house_plan.jpeg",
+  },
+  {
+    id: 2,
+    name: "The Birch",
+    pathImg: "house_plan.jpeg",
+  },
+  {
+    id: 3,
+    name: "The Alpine",
+    pathImg: "house_plan.jpeg",
+  },
+  {
+    id: 3,
+    name: "The Alder",
+    pathImg: "house_plan.jpeg",
+  },
+];

@@ -1,13 +1,19 @@
 import React from "react";
 
-import { GreetingBlock } from "./components";
-import OurLastProjects from "./components/OurLastProjects/OurLastProjects";
+import {
+  BannerShowProjects,
+  GreetingBlock,
+  OurLastProjects,
+  OurNewPlans,
+} from "./components";
 
 const Home = () => {
   return (
     <div>
       <GreetingBlock />
       <OurLastProjects />
+      <BannerShowProjects />
+      <OurNewPlans />
     </div>
   );
 };
