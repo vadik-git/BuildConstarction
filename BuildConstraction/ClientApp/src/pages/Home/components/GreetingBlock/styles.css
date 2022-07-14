@@ -1,0 +1,49 @@
+.mainHomeBlock {
+  background-image: url(../../../../assets/images/main_bg_image.png);
+  background-size: cover;
+}
+.innerBlock {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.mainText {
+  text-align: center;
+  width: 50%;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.buttonLinkContact {
+  background-color: #FFA62B;
+}
+.buttonLinkProject {
+  background-color: #3d424a;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 10px;
+}
+.linkText {
+  margin-right: 20px;
+}
+.buttonLinkProject .linkText {
+  color: #ffffff;
+}
+.button {
+  margin: 0 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 150px;
+}

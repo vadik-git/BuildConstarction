@@ -1,0 +1,9 @@
+{
+  "include": ["src", "./src/**/*.ts", "./src/**/*.svg"],
+  "compilerOptions": {
+      "target": "es5",
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+      "typeRoots" : ["node_modules/@types", "src/types"]
+  }
+}
