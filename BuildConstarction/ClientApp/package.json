@@ -17,7 +17,8 @@
     "reactstrap": "~8.10.1",
     "rimraf": "^3.0.2",
     "tabler-icons-react": "^1.52.0",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
