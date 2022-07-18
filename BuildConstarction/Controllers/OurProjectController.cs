@@ -20,7 +20,8 @@ namespace BuildConstarction.Controllers
         public async Task<IActionResult> Get()
         {
             var result = await _ourProjectService.GetAllAsync();
-            return Ok(result);
+            
+            return Ok(new JsonResult(result));
         }
 
 

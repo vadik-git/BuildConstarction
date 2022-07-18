@@ -1,6 +1,7 @@
 import React from "react";
 import ContactForm from "../Contact/components/ContactForm";
-
+import { useEffect } from "react";
+import service from "../../services/ourProjectRequestsService"
 import {
   BannerShowProjects,
   GreetingBlock,
@@ -9,6 +10,11 @@ import {
 } from "./components";
 
 const Home = () => {
+
+  useEffect(() => {
+    service.getAllOurProjects();
+  }, [])
+
   return (
     <div>
       <GreetingBlock />
