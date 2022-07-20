@@ -6,6 +6,7 @@ import {
   GreetingBlock,
   OurLastProjects,
   OurNewPlans,
+  Testimonials,
 } from "./components";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <OurLastProjects />
       <BannerShowProjects />
       <OurNewPlans />
+      <Testimonials />
       <ContactForm />
     </div>
   );
