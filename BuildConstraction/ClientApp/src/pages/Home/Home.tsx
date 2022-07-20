@@ -1,10 +1,12 @@
 import React from "react";
+import ContactForm from "../Contact/components/ContactForm";
 
 import {
   BannerShowProjects,
   GreetingBlock,
   OurLastProjects,
   OurNewPlans,
+  Testimonials,
 } from "./components";
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
       <OurLastProjects />
       <BannerShowProjects />
       <OurNewPlans />
+      <Testimonials />
+      <ContactForm />
     </div>
   );
 };
